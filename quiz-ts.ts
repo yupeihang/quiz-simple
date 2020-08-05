@@ -2,11 +2,12 @@
 // * 给下这段的代码加上 TypeScript 类型声明，以便更好地使用数据。
 
 // * ---------------- 请补充……
+type FuncT = (query?: string) => Promise<any>
 
-const getData = async () =>
-  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
+const getData:FuncT = async () =>
+  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response: Body) => response.json());
 
-getData().then((e) => console.log(e));
+getData().then((e: Body) => console.log(e));
 
 // * ---------------- TS 的示例
 

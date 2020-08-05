@@ -7,8 +7,37 @@
  */
 const getSumOfTriple = (arr, start, end) => {
   // 请实现……
+  console.log(arr)
+  let sum = 0
+  if (start !== undefined && end !== undefined) {
+      let index1 = getArrayIndex(arr, start)
+      let index2 = getArrayIndex(arr, end)
+      console.log(index1)
+      let arr1 = arr.slice(index1, index2)
+      console.log(arr1)
+      arr1.forEach(item => {
+      if(item%3 === 0) {
+          sum += item
+      }
+      })
+  } else {
+      arr.forEach(item => {
+      if(item%3 === 0) {
+          sum += item
+      }
+      })
+  }
+  return sum
 };
-
+function getArrayIndex(arr, obj) {
+  console.log(obj)
+  var i = arr.length;
+  while (i--) {
+      if (arr[i] <= obj) {
+          return i;
+      }
+  }
+}
 // * ---------------- 实现的效果：
 
 {

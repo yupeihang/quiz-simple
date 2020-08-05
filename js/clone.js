@@ -3,7 +3,10 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
+function clone (data) {
+  let cloneData = JSON.parse(JSON.stringify(data))
+  return cloneData
+}
 // * ---------------- 实现的效果：
 
 {

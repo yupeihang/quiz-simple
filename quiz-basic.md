@@ -12,29 +12,29 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
+| npm            | 是 nodejs自带的一个软件安装包工具               |
+| npx            | 是 临时安装缺少的依赖                |
+| nvm            | 是 mac上管理node的工具                |
+| nrm            | 是 管理npm的工具              |
+| yarn           | 是 类似npm的一个安装包工具               |
+| React          | 是 典型组件化开发的前端框架                |
+| Vue            | 是 单页面MVVM框架的代表                |
 | Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
+| Mobx           | 是 react的一种状态管理器                |
+| MVVM           | 是 分离视图和模型的编程思想                |
 | TDD            | 是 ……                |
 | Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
+| node_modules   | 是 项目需要的依赖               |
+| package.json   | 是 项目配置文件                |
+| ECMAScript     | 是 js的标准                |
 | Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| Babel          | 是 ES6转换为ES5               |
+| Webpack        | 是 打包工具            |
+| SSR            | 是 服务器                |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
-| V8             | 是 ……                |
+| V8             | 是 浏览器内核                |
 | libuv          | 是 ……                |
 | Stack Overflow | 是 ……                |
 | Deno           | 是 ……                |
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：掘金，csdn，git
